@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "express node js convert server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VPK",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.0.0-3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -13,10 +13,6 @@ app.get('/',(req,res)=>{
     });
 });
 
-app.get('/generateInvoice', (req,res) =>{
-
-});
-
 app.get('/convertFromOffice', (req,res) =>{
     const { filename } = req.query;
 
